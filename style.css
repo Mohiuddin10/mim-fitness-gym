@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+nav {
+    height: 20vh;
+}
 .manu-container {
     display: flex;
     justify-content: space-between;
@@ -24,15 +27,21 @@
     padding: 20px;
     font-size: 20px;
 }
+.menu-btn:hover {
+    box-shadow: 2px 2px 30px rgb(215, 130, 130);
+    border-radius: 18px;
+}
 .gym-menu li:hover {
     color: red;
     cursor: pointer;
+    outline: 2px;
+    outline-style: double;
 }
 .banner-container {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-color: black;
     color: white;
     align-items: center;
@@ -66,7 +75,8 @@
 
 .section-two{
     padding: 10px;
-    margin: 10px;
+    margin: 10vh;
+    height: 100vh;
 }
 .section-headding {
     text-align: center;
@@ -87,10 +97,11 @@
     margin: 10px;
     padding: 10px;
     box-shadow: 5px 5px 10px gray;
+    text-align: center;
 }
 .img {
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: 150px;
     border-radius: 10px;
     box-shadow: 5px 5px 20px lightblue;
 }
