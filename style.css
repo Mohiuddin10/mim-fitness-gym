@@ -61,5 +61,36 @@
 }
 .banner-img img{
     border-radius: 15px;
-    box-shadow: 10px 10px 30px rgb(50, 41, 41);
+    box-shadow: 10px 10px 70px rgb(63, 23, 23);
+}
+
+.section-two{
+    padding: 10px;
+    margin: 10px;
+}
+.section-headding {
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.card {
+    
+    align-items: center;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+.img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px lightblue;
 }
