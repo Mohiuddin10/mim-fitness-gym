@@ -148,3 +148,43 @@ nav {
 .about-right {
     width: 80%;
 }
+
+/* live chat start  */
+.chat-container {
+    display: flex;
+    justify-content: space-around;
+    width: 650px;
+    height: 250px;
+    margin: 0 auto;
+    background-image: url(./images/backgroundChatImg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.chat-title {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.chat-title h1 {
+    color: aliceblue;
+    text-shadow: 5px 5px 20px azure;
+    text-align: center;
+}
+.chat-btn {
+    width: 40%;
+}
+.chat-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0;
+}
+.chat-btn a:hover {
+    box-shadow: 10px 10px 70px tomato;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 800ms;
+}
