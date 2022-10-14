@@ -92,8 +92,17 @@ nav {
     box-shadow: 2px 2px 60px rgb(212, 66, 66);
 
 }
+.banner-left{
+    width: 70%;
+}
+.banner-right {
+    width: 50%;
+}
 .banner-img img{
+    width: 80vh;
     border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
     box-shadow: 10px 10px 70px rgb(63, 23, 23);
 }
 
@@ -213,7 +222,7 @@ nav {
     transition: 800ms;
 }
 
-/* services container start  */\
+/* services container start  */
 .gym-service-container {
     height: 100vh;
     align-items: center;
@@ -244,7 +253,7 @@ nav {
 }
 .batch-img {
     position:relative;
-    left: 54vh;
+    left: 50vh;
     top: -45vh;
 }
 .service-title{
@@ -270,4 +279,39 @@ nav {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+}
+
+.footer {
+    background-color: rgb(36, 33, 33);
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+.support a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.img-icon {
+    width: 100%;
+    
+}
+.img-icon a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+}
+.img-icon svg{
+    width: 50px;
+    height: 50px;
+    
+}
+.support {
+    margin: 10px;
+    padding: 10px;
 }
